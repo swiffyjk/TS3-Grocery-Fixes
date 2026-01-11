@@ -38,42 +38,48 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\mscorlib.dll</HintPath>
+      <HintPath>libs\mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ScriptCore">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\ScriptCore.dll</HintPath>
+      <HintPath>libs\ScriptCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="SimIFace">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\SimIFace.dll</HintPath>
+      <HintPath>libs\SimIFace.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sims3GameplayObjects">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\Sims3GameplayObjects.dll</HintPath>
+      <HintPath>libs\Sims3GameplayObjects.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sims3GameplaySystems">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\Sims3GameplaySystems.dll</HintPath>
+      <HintPath>libs\Sims3GameplaySystems.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sims3Metadata">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\Sims3Metadata.dll</HintPath>
+      <HintPath>libs\Sims3Metadata.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sims3StoreObjects">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\Sims3StoreObjects.dll</HintPath>
+      <HintPath>libs\Sims3StoreObjects.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System">
+      <HintPath>libs\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>libs\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UI">
-      <HintPath>C:\Users\swiffy\Documents\TS3 DLLs\UI.dll</HintPath>
+      <HintPath>libs\UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Downloads\MonoPatcher-main\MonoPatcher\MonoPatcher.csproj">
+    <ProjectReference Include="..\MonoPatcher-main\MonoPatcher\MonoPatcher.csproj">
       <Project>{91460f7b-9c23-4a43-ab52-95eac8d52d93}</Project>
       <Name>MonoPatcher</Name>
     </ProjectReference>
