@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+  <Current_Tuning>
+
+    <kFixEmptyShopByRecipe value="True">
+      <!--Fixes the bug where households with Sims who haven't gained any Cooking skills don't see anything in the 'Shop by Recipe' tab when Shopping for Groceries. True or False.-->
+    </kFixEmptyShopByRecipe>
+
+    <kAddQuickMealsToShopByRecipe value="True">
+      <!--Adds the recipes of quick meals, provided by Ani's No Fridge Shopping mod, to the 'Shop by Recipe' tab when Shopping for Groceries. If Ani's No Fridge Shopping is not installed, the quick meals simply will not be added and there won't be any errors. True or False.-->
+    </kAddQuickMealsToShopByRecipe>
+
+  </Current_Tuning>
+</base>
