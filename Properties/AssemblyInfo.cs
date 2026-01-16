@@ -6,11 +6,11 @@ using Sims3.SimIFace;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EmptyShopByRecipeFix")]
+[assembly: AssemblyTitle("GroceryFixes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("swiffy")]
-[assembly: AssemblyProduct("EmptyShopByRecipeFix")]
+[assembly: AssemblyProduct("GroceryFixes")]
 [assembly: AssemblyCopyright("Copyright © swiffy 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

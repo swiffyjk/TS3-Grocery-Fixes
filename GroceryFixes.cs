@@ -58,17 +58,16 @@ namespace swiffyMisc.GroceryFixes
                         }
                     }
                 }
-                else
+            }
+            if (kFixEmptyShopByRecipe && dictionary3.Count == 0) // If fix enabled and no recipes found from cooking skills
+            {
+                foreach (Recipe recipe in Recipe.Recipes) // Patched code, checks all recipes
                 {
-                    if (kFixEmptyShopByRecipe)
+                    if (recipe != null && recipe.CanBuyAllIngredientsFromStore && !dictionary3.ContainsKey(recipe))
                     {
-                        foreach (Recipe recipe in Recipe.Recipes) // Patched code, checks all recipes
+                        if (recipe.CookingSkillLevelRequired == 0 && recipe.LearnWhenReachCorrectLevel && !(recipe.IsPetFood && !GameUtils.IsInstalled(ProductVersion.EP5)))
                         {
-                            if (recipe != null && recipe.CanBuyAllIngredientsFromStore && !dictionary3.ContainsKey(recipe))
-                                if (recipe.CookingSkillLevelRequired == 0 && recipe.LearnWhenReachCorrectLevel && !(recipe.IsPetFood && !GameUtils.IsInstalled(ProductVersion.EP5)))
-                                {
-                                    dictionary3.Add(recipe, true);
-                                }
+                            dictionary3.Add(recipe, true);
                         }
                     }
                 }
